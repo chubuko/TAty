@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+/* 
+  background: url(../img/maz.png);
+  background-repeat: no-repeat;
+  background-size: 593px 1120px;
+  background-position: 0% 0%; */
+
+    
+    font-family: 'Imbue';
+    font-style: normal;
+    width: 100vw;
+   
+   
+}
+.a{
+    color: #C21B1B;
+}
+
+.mm{
+    position: absolute;
+    width: 550px;
+    height: 1300px;
+    left: -140px;
+    top: -150px;
+    
+}
+
+header{
+   
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100vw;
+}
+main{
+    background: url(../img/gor1\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: 753px 1080px;
+    background-position: 100% 110%;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+        font-family: 'Imbue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+   
+
+
+color: #000000;
+
+}
+.log{
+    width: 201px;
+    height: 179px;
+}
+.blok{
+    margin-left: 43px;
+       margin-top: 23px;
+       margin-right: 80px;
+       width: 266px;
+      
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 40px;
+       line-height: 48px;   
+       width: 266px;
+}
+.phone {
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*кнопка в логотипе 1*/
+
+.button1{
+    margin: 50px;
+    position: relative;
+    width: 365px;
+    height: 108px;
+    display: flex;
+    
+    align-items: center;
+}
+.b1{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    
+    z-index: 1;
+    width: 304px;
+    height: 79px;
+    border: none;
+
+
+    background: rgba(194, 27, 27, 0.79);
+}
+
+.b2{
+    position: absolute;
+
+    left: 50px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 304px;
+    height: 79px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    border: none;
+    background: #000000;
+}
+
+.line{
+
+    
+    background-color: rgb(0, 0, 0); 
+    color: red; 
+    height: 2px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zad{
+    position: relative;
+    width: 1592px;
+    height: 353px;
+    display: flex;
+   
+    margin-top: 73px;
+
+    align-items: center;
+}
+
+.cont{
+    position: absolute;
+    width: 1592px;
+    height: 353px;
+    z-index: 1;
+
+    background: rgba(194, 27, 27, 0.79);
+}
+.O_nas{
+    padding: 30px;
+    position: absolute;
+    z-index: 2;
+    width: 1375px;
+    height: 279px;
+    background: #FFFFFF;
+    margin-top: 120px;
+    margin-left: 250PX;
+}
+
+h1{
+    font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+.p1{
+    font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+text-align: right;
+
+color: #000000;
+}
+
+h2{
+
+    font-family: 'Imbue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #000000;
+
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* 
+.gallery{
+    width: 1438px;
+    display: flex;
+} */
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fon{
+    width: 328px;
+    height: 401px;
+    display: flex;
+    margin: 100px;
+    background-color:  #000000;
+    align-items: center;
+    justify-content: center;
+}
+.fon1{
+    width: 328px;
+    height: 401px;
+    display: flex;
+    margin: 100px;
+    background-color: rgba(194, 27, 27, 0.79);
+    align-items: center;
+    justify-content: center;
+}
+.g1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img{
+  display: flex;
+    width: 232px;
+    height: 290px;
+    
+    margin: 20px;
+}
+
+
+
+.tiltt{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+.tiltik{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #000000;
+}
+
+.pol{
+    width: 83.66px;
+height: 85px;
+}
+
+.ysl{
+    width: 1792px;
+    height: 580px;
+
+}
+h3{
+
+  display: flex;
+    font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+text-align: right;
+
+color: #000000;
+}
+.container2{
+    margin: 30px;
+    width: 1670px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.t{
+
+    height: 78px;
+    
+    font-family: 'Imbue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.zena{
+   
+   
+
+    font-family: 'Imbue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    text-align: right;
+
+}
+
+
+
+.kakje{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+.button2{
+    margin: 50px;
+    position: relative;
+    width: 784px;
+    height: 195px;
+    display: flex;
+    
+    align-items: center;
+}
+.b3{
+    position: absolute;
+    bottom: 80px;
+    right: 180px;
+    
+    z-index: 1;
+    width: 654px;
+    height: 142px;
+    border: none;
+
+
+    background: rgba(194, 27, 27, 0.79);
+}
+
+.b4{
+    position: absolute;
+
+    left: 50px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 654px;
+    height: 142px;
+    font-style: normal;
+  
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #FFFFFF;
+    
+    border: none;
+    background: #000000;
+}
+
+
+
+
+/* спасибо что выбрали нас  */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    
+    width: 1119px;
+    height: 471px;
+   
+    
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sps_text{
+    font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: center;
+
+color: #000000;
+}
